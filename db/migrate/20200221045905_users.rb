@@ -5,4 +5,5 @@ class Users < ActiveRecord::Migration[5.1]
       t.string :password
       t.decimal :balance
     end
+  end
 end
